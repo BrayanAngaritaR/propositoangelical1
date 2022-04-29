@@ -1,0 +1,67 @@
+.ctn-preloader .animation-preloader .icon span:after{
+	background: yellow;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	color: #3f3f3f;
+}
+
+.hero-banner-five .hero-sub-heading, .feedback-section-eight .feedback-wrapper blockquote {
+	color: #6e6b6b;
+}
+
+body .theme-btn-one{
+	background: #0e6bb7;
+	color: #fff8b9;
+}
+
+body .theme-btn-six {
+	color: #0e6bb6;
+	background: #fff8b9;
+}
+
+.hero-banner-five .video-icon, .feedback-section-eight .feedback-wrapper .icon, .fancy-banner-one:before {
+	background: #0c6bb8;
+}
+
+.yellow-and-blue-counter{
+	background: #fff8b9;
+	color: #0c6bb8;
+}
+
+.feedback-section-eight .feedback-wrapper blockquote span{
+	color: #0e6bb7;
+}
+
+.feedback-section-eight .feedback-wrapper blockquote span:before {
+	background: #fff8b9;
+}
+
+.bg-blue-light{
+	background: #f0f6fb;
+}
+
+
+/*.stage {
+	display: flex;
+	height: 330px;
+	width: 100%;
+}*/
+    .box {
+        align-self: flex-end;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        height: auto;
+        margin: 0 auto 0 auto;
+        transform-origin: bottom;
+        width: 70%;
+    }
+    .bounce-1 {
+        animation-name: bounce-1;
+        animation-timing-function: linear;
+    }
+    @keyframes bounce-1 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
+    }
